@@ -14,6 +14,14 @@ def execute_application():
         city: str
         address: str
 
+        def __init__(self,name: Dict[str,str],data_birthday: Dict[str, str], phone: str,
+                     country:str, city: str, address: str):
+            self.name = name
+            self.data_birthday = data_birthday
+            self.phone = phone
+            self.city = city
+            self.address = address
+
 
 
 
