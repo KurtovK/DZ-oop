@@ -20,6 +20,15 @@ from typing import Dict
          self.qenre = genre
          self.price = price
 
+    def __str__(self):
+        return f"Название: {self.name}\n" \
+                f"Автор: {self.author}\n" \
+                f"Год издания: {self.year}\n" \
+                f"Издание: {self.publisher}\n" \
+                f"Жанр: {self.genre}\n"\
+                f"Цена: {self.price}\n"
+
+
 
 def execute_application():
     pass
